@@ -7,7 +7,7 @@ const AuthNavbar = () => {
         <header className="w-full md:top-10 top-6 mx-auto absolute z-40">
             <Container className="flex justify-between items-center">
                 <Link to="/" className="flex items-center space-x-2 xl:w-[25%] md:w-[30%] w-fit text-foreground">
-                    <img src="/images/common/logo.svg" alt="NovaMint" className="h-6" />
+                    <img src="/images/common/logo-novamint.png" alt="NovaMint" className="h-6" />
                     <span className="font-semibold text-xl tracking-tight hidden sm:inline uppercase">NovaMint</span>
                 </Link>
 

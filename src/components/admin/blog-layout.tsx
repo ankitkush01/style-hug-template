@@ -41,7 +41,7 @@ const BlogLayout = ({ children }: BlogLayoutProps) => {
         <div className="p-6 border-b border-white/10">
           <Link to="/" className="flex items-center gap-2">
             <img
-              src="/images/common/logo.svg"
+              src="/images/common/logo-novamint.png"
               alt="Logo"
               className="h-8"
             />
