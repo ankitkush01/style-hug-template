@@ -1,6 +1,7 @@
 import { AnimateOnView } from "@/components/ui/motion/animate-on-view";
 import { StaggerContainer } from "@/components/ui/motion/stagger";
 import { Newsletter } from "@/components/ui/newsletter";
+import { CryptoCoinScene } from "./crypto-coin-scene";
 
 const Hero = () => {
   return (
@@ -37,36 +38,9 @@ const Hero = () => {
             </AnimateOnView>
           </StaggerContainer>
 
-          <div
-            className="relative flex items-center justify-center"
-          >
-            <StaggerContainer className="relative w-full max-w-[840px] flex items-center justify-center">
-
-              <AnimateOnView delay={0.1} className="absolute right-0 top-1/2 -translate-y-1/2 aspect-[429/259] w-[51%] z-0">
-                <img
-                  src="/images/home/card-2.png"
-                  alt="NFT collection artwork"
-                  className="w-full h-full object-cover"
-                />
-              </AnimateOnView>
-
-              <AnimateOnView delay={0.2} className="aspect-[525/317] w-[63%] z-10 bg-[url('/images/home/card-bg.png')] bg-cover bg-center rounded-[19px]">
-                <img
-                  src="/images/home/card-1.png"
-                  alt="NFT collection artwork"
-                  className="w-full h-full object-cover"
-                />
-              </AnimateOnView>
-
-              <AnimateOnView delay={0.3} className="absolute left-0 top-1/2 -translate-y-1/2 aspect-[429/259] w-[51%] z-0">
-                <img
-                  src="/images/home/card-2.png"
-                  alt="NFT collection artwork"
-                  className="w-full h-full object-cover"
-                />
-              </AnimateOnView>
-            </StaggerContainer>
-          </div>
+          <AnimateOnView delay={0.15} className="relative mx-auto w-full max-w-[960px]">
+            <CryptoCoinScene />
+          </AnimateOnView>
         </div>
       </div>
     </section>
