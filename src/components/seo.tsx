@@ -37,7 +37,7 @@ const SEO = ({
             <meta property="og:url" content={fullUrl} />
             <meta property="og:image" content={fullImageUrl} />
             <meta property="og:image:alt" content={title} />
-            <meta property="og:site_name" content="Revio - Offline & Online Transaction" />
+            <meta property="og:site_name" content="NovaMint - Crypto & NFT Platform" />
             <meta property="og:locale" content="en_US" />
 
             {/* Twitter Card Meta Tags */}
@@ -50,7 +50,7 @@ const SEO = ({
             <meta name="twitter:creator" content="@revio.photo" />
 
             {/* Additional Meta Tags */}
-            <meta name="author" content="Revio" />
+            <meta name="author" content="NovaMint" />
             <meta name="robots" content="index, follow" />
             <meta name="googlebot" content="index, follow" />
 
