@@ -155,7 +155,7 @@ const IntegrationDetails = () => {
                             {data.description}
                         </p>
                         <div className="text-white text-xl font-medium">
-                            {data.name} + Paymark
+                            {data.name} + NovaMint
                         </div>
                     </AnimateOnView>
                 </div>

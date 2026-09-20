@@ -30,7 +30,7 @@ const features = [
     {
         id: 4,
         title: "Seamless App & Tool Integrations",
-        description: "Sync Paymark with tools for smoother money management.",
+        description: "Sync NovaMint with tools for smoother money management.",
         lottieData: feature4,
     }
 ]

@@ -17,7 +17,7 @@ const FeatureGrowth = () => {
                     </AnimateOnView>
                     <AnimateOnView blur delay={0.2}>
                         <p className="text-muted-foreground">
-                            Discover the powerful tools that make Paymark the future of finance.
+                            Discover the powerful tools that make NovaMint the future of finance.
                         </p>
                     </AnimateOnView>
                 </StaggerContainer>

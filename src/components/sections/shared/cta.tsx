@@ -31,7 +31,7 @@ const CTA = () => {
                         <p
                             className='text-muted-foreground md:mb-10 mb-5'
                         >
-                            Join over 1,000 businesses already benefiting from Paymark.           </p>
+                            Join over 1,000 businesses already benefiting from NovaMint.           </p>
                     </AnimateOnView>
                     <AnimateOnView>
                         <Button asChild>

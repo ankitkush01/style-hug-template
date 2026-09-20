@@ -126,7 +126,7 @@ const ProfilePage = () => {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <Helmet>
-        <title>Profile Settings | Paymark</title>
+        <title>Profile Settings | NovaMint</title>
       </Helmet>
 
       <main className="flex-1 relative pt-12 md:pt-20 pb-20 bg-[url(/images/common/banner-gradient.webp)] bg-cover bg-center">

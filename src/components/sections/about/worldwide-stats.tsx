@@ -48,7 +48,7 @@ const WorldwideStats = () => {
                     >
                         <div className="relative z-10 pt-[29px] px-6">
                             <h3 className="text-3xl font-semibold text-white leading-tight max-w-[280px]">
-                                Paymark Supports participants and sites
+                                NovaMint Supports participants and sites
                             </h3>
                         </div>
 

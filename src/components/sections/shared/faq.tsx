@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const faqs = [
   {
-    question: "What is Paymark?",
+    question: "What is NovaMint?",
     answer: "Reach, leverages AI-optimized cold email campaigns to elevate your business. We provide tailored strategies that enhance outreach",
   },
   {
@@ -17,11 +17,11 @@ const faqs = [
     answer: "Reach, leverages AI-optimized cold email campaigns to elevate your business. We provide tailored strategies that enhance outreach",
   },
   {
-    question: "Are there any account fees in Paymark?",
-    answer: "No, there are no monthly or annual account fees for using Paymark. We believe in keeping it simple and transparent so you can get more value without hidden costs.",
+    question: "Are there any account fees in NovaMint?",
+    answer: "No, there are no monthly or annual account fees for using NovaMint. We believe in keeping it simple and transparent so you can get more value without hidden costs.",
   },
   {
-    question: "Why should I use Paymark?",
+    question: "Why should I use NovaMint?",
     answer: "Because our built-in AI helps you automate the boring parts of finance (tracking expenses, reminders, insights), so you can focus on what really matters.",
   }
 ];
