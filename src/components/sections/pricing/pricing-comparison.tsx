@@ -6,12 +6,12 @@ import { cn } from "@/lib/utils";
 import { Link } from "react-router-dom";
 
 const features = [
-    { name: "Cash Back Rewards", starter: "1.5%", professional: "4%" },
-    { name: "FDIC Insurance", starter: "Yes", professional: "Yes" },
+    { name: "Staking Rewards", starter: "1.5%", professional: "4%" },
+    { name: "Self-Custody Wallet", starter: "Yes", professional: "Yes" },
     { name: "ACH Transfers", starter: "Instant ACH transfers for $1", professional: "Same-day ACH transfers for $0.50" },
-    { name: "Domestic Wire Transfers", starter: "$6", professional: "$3" },
-    { name: "Virtual Card Options", starter: "Unlimited virtual card options", professional: "Unlimited access to virtual cards" },
-    { name: "International Wire Transfers", starter: "$25", professional: "$20" },
+    { name: "Token Swap Fee", starter: "$6", professional: "$3" },
+    { name: "Virtual Card Options", starter: "Unlimited watchlists and price alerts", professional: "Unlimited collections and allowlists" },
+    { name: "Cross-Chain Bridge Fee", starter: "$25", professional: "$20" },
     { name: "Multi-user Access", starter: "No", professional: "Yes" },
     { name: "Priority Customer Support", starter: "No", professional: "Yes" },
     { name: "Monthly Spending Reports", starter: "Basic", professional: "Advanced with insights" },
@@ -30,7 +30,7 @@ const PricingComparison = () => {
 
                     <AnimateOnView blur once delay={0.1}>
                         <p className="text-muted-foreground">
-                            Enjoy high-yield accounts, unlimited 2% cashback cards for Pro customers, and flexible working capital to power your business.
+                            Live token prices, gas-optimized swaps, and on-chain NFT analytics — all secured by keys you control.
                         </p>
                     </AnimateOnView>
                 </StaggerContainer>

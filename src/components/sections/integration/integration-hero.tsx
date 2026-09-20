@@ -16,7 +16,7 @@ const integrations = [
     {
         id: "finsync",
         name: "FinSync",
-        description: "An advanced financial synchronization solution designed to pull, validate, and consolidate data from diverse banking.",
+        description: "An advanced on-chain synchronization solution designed to pull, validate, and consolidate data from diverse blockchain.",
         icon: <Zap className="w-6 h-6 text-emerald-400" />,
         color: "bg-emerald-500/10",
     },
@@ -44,14 +44,14 @@ const integrations = [
     {
         id: "paystream",
         name: "PayStream",
-        description: "A versatile payment-processing connector that unites multiple gateways, automates cash-flow reconciliation.",
+        description: "A versatile transaction-routing connector that unites multiple gateways, automates cash-flow reconciliation.",
         icon: <Hexagon className="w-6 h-6 text-purple-400" />,
         color: "bg-purple-500/10",
     },
     {
         id: "dividend",
         name: "Dividend",
-        description: "A sophisticated treasury-management integration that consolidates banking data, cash positions, and liquidity forecast.",
+        description: "A sophisticated treasury-management integration that consolidates on-chain data, cash positions, and liquidity forecast.",
         icon: <Box className="w-6 h-6 text-green-400" />,
         color: "bg-green-500/10",
     },
@@ -65,7 +65,7 @@ const integrations = [
     {
         id: "risksphere",
         name: "RiskSphere",
-        description: "A powerful risk-analysis integration that aggregates market data, credit reports, and internal financial metrics.",
+        description: "A powerful risk-analysis integration that aggregates market data, credit reports, and internal on-chain metrics.",
         icon: <Settings className="w-6 h-6 text-pink-400" />,
         color: "bg-pink-500/10",
     },
@@ -79,12 +79,12 @@ const IntegrationHero = () => {
                 <StaggerContainer className="max-w-[540px] mx-auto text-center">
                     <AnimateOnView blur>
                         <h1 className="h1 md:mb-5 mb-3">
-                            Smart Financial Integrations Suite
+                            Web3 Integrations Suite
                         </h1>
                     </AnimateOnView>
                     <AnimateOnView blur delay={0.2}>
                         <p className="text-lg">
-                            A comprehensive platform that seamlessly connects your financial system, manage your finances efficiently and effectively.
+                            A comprehensive platform that seamlessly connects your on-chain system, manage your crypto portfolio efficiently and effectively.
                         </p>
                     </AnimateOnView>
                 </StaggerContainer>

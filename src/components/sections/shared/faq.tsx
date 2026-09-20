@@ -9,20 +9,20 @@ import { Link } from "react-router-dom";
 
 const faqs = [
   {
-    question: "What is Paymark?",
-    answer: "Reach, leverages AI-optimized cold email campaigns to elevate your business. We provide tailored strategies that enhance outreach",
+    question: "What is NovaMint?",
+    answer: "NovaMint is a crypto and NFT platform where you can buy, swap and stake tokens, mint your own collections, and track everything from one self-custody wallet.",
   },
   {
-    question: "Is there a limit for cashback I can earn?",
-    answer: "Reach, leverages AI-optimized cold email campaigns to elevate your business. We provide tailored strategies that enhance outreach",
+    question: "Do you hold my crypto?",
+    answer: "No. NovaMint is fully self-custody, so your keys and assets stay in your wallet. We never take control of your funds.",
   },
   {
-    question: "Are there any account fees in Paymark?",
-    answer: "No, there are no monthly or annual account fees for using Paymark. We believe in keeping it simple and transparent so you can get more value without hidden costs.",
+    question: "What does it cost to mint an NFT?",
+    answer: "You only pay network gas fees plus our flat platform fee. Our contracts are gas-optimized and support batch minting to keep costs low.",
   },
   {
-    question: "Why should I use Paymark?",
-    answer: "Because our built-in AI helps you automate the boring parts of finance (tracking expenses, reminders, insights), so you can focus on what really matters.",
+    question: "Which blockchains are supported?",
+    answer: "Ethereum, Solana, Polygon, Base and Arbitrum today, with new chains added regularly based on what the community asks for.",
   }
 ];
 

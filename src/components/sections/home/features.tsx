@@ -16,39 +16,39 @@ import {
 const cards = [
   {
     id: 1,
-    title: "Make Smarter Money Decisions Quickly",
-    description: "Access real-time analytics and personalized insights to optimize your finances, investments, and business growth effectively.",
+    title: "Track Every Token in Real Time",
+    description: "Follow live prices, portfolio value and on-chain flows across Ethereum, Solana and every chain you hold.",
     imageSrc: "images/home/feature-1.png",
-    imageAlt: "Man using smartphone for financial analytics",
+    imageAlt: "Trader reviewing crypto portfolio on a phone",
     overlayData: {
       src: "images/home/feature-stat-1.webp",
-      alt: "Financial statistics and analytics",
+      alt: "On-chain market statistics",
       className: "aspect-[203/188] w-full max-w-[203px]"
     },
     overlayPosition: "bottom-left" as const
   },
   {
     id: 2,
-    title: "Make Smarter Money Decisions Quickly",
-    description: "Access real-time analytics and personalized insights to optimize your finances, investments, and business growth effectively.",
+    title: "Mint NFT Collections in Minutes",
+    description: "Deploy a smart contract, set royalties and drop your collection to marketplaces without writing a line of code.",
     imageSrc: "images/home/feature-2.webp",
-    imageAlt: "Man using smartphone for financial analytics",
+    imageAlt: "Trader reviewing crypto portfolio on a phone",
     overlayData: {
       src: "images/home/feature-stat-2.png",
-      alt: "Financial statistics and analytics",
+      alt: "On-chain market statistics",
       className: "aspect-[244/130] w-full max-w-[244px]"
     },
     overlayPosition: "bottom-left" as const
   },
   {
     id: 3,
-    title: "Make Smarter Money Decisions Quickly",
-    description: "Access real-time analytics and personalized insights to optimize your finances, investments, and business growth effectively.",
+    title: "Stake and Earn On-Chain Rewards",
+    description: "Put idle tokens to work with audited staking pools and track rewards as they accrue, block by block.",
     imageSrc: "images/home/feature-3.webp",
-    imageAlt: "Man using smartphone for financial analytics",
+    imageAlt: "Trader reviewing crypto portfolio on a phone",
     overlayData: {
       src: "images/home/feature-stat-3.png",
-      alt: "Financial statistics and analytics",
+      alt: "On-chain market statistics",
       className: "aspect-[173/180] w-full max-w-[173px]"
     },
     overlayPosition: "bottom-left" as const
@@ -67,7 +67,7 @@ const Features = () => {
             <h2
               className="h2 mb-6"
             >
-              Bank Complete Confidence
+              Trade With Complete Confidence
             </h2>
           </AnimateOnView>
           <AnimateOnView
@@ -77,7 +77,7 @@ const Features = () => {
             <p
               className='text-muted-foreground'
             >
-              Enjoy high-yield accounts, unlimited 2% cashback cards for Pro customers, and flexible working capital to power your business.
+              Live token prices, gas-optimized swaps, and on-chain NFT analytics — all secured by self-custody keys you control.
             </p>
           </AnimateOnView>
         </StaggerContainer>

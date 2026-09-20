@@ -13,16 +13,16 @@ const features = [
     },
     {
         title: "Early Access Cards",
-        description: "Unlock credit cards faster with industry-low deposits and tailored card benefits.",
+        description: "Unlock credit lines faster with industry-low deposits and tailored card benefits.",
         icon: CreditCard,
     },
     {
         title: "Cashback Rewards",
-        description: "Earn unlimited 2% cashback on purchases, helping you save with every spend.",
+        description: "Earn unlimited 2% staking rewards on purchases, helping you save with every spend.",
         icon: Gift,
     },
     {
-        title: "Seamless Payments",
+        title: "Seamless Transactions",
         description: "Easily connect with PayPal, Amazon Pay, Stripe, and others for smooth transfers.",
         icon: Send,
     },
@@ -34,7 +34,7 @@ const features = [
     },
     {
         title: "Secure & Transparent",
-        description: "Enjoy reliable banking with no hidden fees, built on trust and full clarity.",
+        description: "Enjoy reliable blockchain with no hidden fees, built on trust and full clarity.",
         icon: ShieldCheck,
     },
 ];
@@ -52,7 +52,7 @@ const InnovationSection = () => {
 
                     <AnimateOnView blur once delay={0.1}>
                         <p className="text-muted-foreground max-w-[660px] mx-auto">
-                            Enjoy secure accounts, cashback rewards, and smart financial tools designed to help you grow, save, and invest with confidence.
+                            Enjoy secure accounts, staking rewards rewards, and smart on-chain tools designed to help you grow, save, and invest with confidence.
                         </p>
                     </AnimateOnView>
                 </StaggerContainer>

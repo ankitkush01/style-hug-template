@@ -16,21 +16,21 @@ const journeyTabs = [
     },
     {
         title: "Rapid Growth",
-        description: "Our user base tripled within the first year as we expanded our features to include early access credit cards.",
+        description: "Our user base tripled within the first year as we expanded our features to include early access credit lines.",
         year: "2022",
         subtitle: "Expansion",
         image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&q=80&w=1200",
     },
     {
         title: "Building Community",
-        description: "We launched our social features, allowing users to share financial tips and growth strategies with each other.",
+        description: "We launched our social features, allowing users to share on-chain tips and growth strategies with each other.",
         year: "2023",
         subtitle: "Connection",
         image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=1200",
     },
     {
         title: "Future Horizons",
-        description: "Integrating AI-driven insights to help users make even smarter financial decisions for long-term wealth.",
+        description: "Integrating AI-driven insights to help users make even smarter on-chain decisions for long-term wealth.",
         year: "2024",
         subtitle: "Innovation",
         image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200",
@@ -60,7 +60,7 @@ const JourneySection = () => {
 
                     <AnimateOnView blur once delay={0.1}>
                         <p className="text-muted-foreground">
-                            Our growth reflects one mission — helping people and companies achieve financial confidence with clarity and ease.
+                            Our growth reflects one mission — helping people and creators navigate crypto and NFTs with clarity and ease.
                         </p>
                     </AnimateOnView>
                 </StaggerContainer>

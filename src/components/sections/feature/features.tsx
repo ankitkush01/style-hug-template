@@ -21,15 +21,15 @@ const Features = () => {
   return (
     <section className="md:py-[60px] py-12 bg-background">
       <Container className="md:space-y-16 space-y-8">
-        {/* Card 1: Intelligent Financial Insights */}
+        {/* Card 1: Intelligent On-Chain Insights */}
         <FeatureCard imagePosition="right" className="border-0 bg-[rgba(20,20,20,1)] sticky top-24">
           <FeatureCardContent>
-            <div className="bg-white/10 text-white px-5 py-2 rounded-full mb-5">Intelligent Financial Insights</div>
+            <div className="bg-white/10 text-white px-5 py-2 rounded-full mb-5">Intelligent On-Chain Insights</div>
             <FeatureCardTitle className='mb-5'>
               Make Smarter Money Decisions Quickly
             </FeatureCardTitle>
             <FeatureCardDescription className='mb-5'>
-              Access real-time analytics and personalized insights to optimize your finances, investments, and business growth effectively.
+              Access real-time analytics and personalized insights to optimize your crypto portfolio, investments, and business growth effectively.
             </FeatureCardDescription>
             <FeatureCardBenefits>
               <FeatureCardBenefitItem>
@@ -39,7 +39,7 @@ const Features = () => {
                 Generate detailed reports for informed decision-making.
               </FeatureCardBenefitItem>
               <FeatureCardBenefitItem>
-                Receive actionable alerts to stay ahead financially.
+                Receive actionable alerts to stay ahead on-chainly.
               </FeatureCardBenefitItem>
             </FeatureCardBenefits>
             <FeatureCardAction>
@@ -52,7 +52,7 @@ const Features = () => {
           </FeatureCardContent>
           <FeatureCardImage
             src="/images/feature/feature-alt-1.png"
-            alt="Man using smartphone for financial analytics"
+            alt="Man using smartphone for on-chain analytics"
           >
             <FeatureCardOverlay
               animationData={feature1}
@@ -62,11 +62,11 @@ const Features = () => {
           </FeatureCardImage>
         </FeatureCard>
 
-        {/* Card 2: Effortless Payments And Transfers */}
+        {/* Card 2: Effortless Transactions And Transfers */}
         <FeatureCard imagePosition="left" className="border-0 bg-[rgba(20,20,20,1)] sticky top-24">
           <FeatureCardImage
             src="/images/feature/feature-alt-2.png"
-            alt="Person making payment transfer"
+            alt="Person making transaction transfer"
           >
             <FeatureCardOverlay
               animationData={feature2}
@@ -76,13 +76,13 @@ const Features = () => {
           </FeatureCardImage>
           <FeatureCardContent>
             <div className="bg-white/10 text-white px-5 py-2 rounded-full mb-5">
-              Effortless Payments And Transfers
+              Effortless Transactions And Transfers
             </div>
             <FeatureCardTitle>
               Send Money With Total Confidence
             </FeatureCardTitle>
             <FeatureCardDescription className='mb-5'>
-              Execute fast, secure transfers anytime, anywhere, ensuring your payments are seamless and worry-free across accounts.
+              Execute fast, secure transfers anytime, anywhere, ensuring your transactions are seamless and worry-free across accounts.
             </FeatureCardDescription>
             <FeatureCardBenefits>
               <FeatureCardBenefitItem>
@@ -115,7 +115,7 @@ const Features = () => {
               Empower Your Business Growth Today
             </FeatureCardTitle>
             <FeatureCardDescription className='mb-5'>
-              Access working capital, customizable financial tools, and support designed to scale your business efficiently.
+              Access working capital, customizable on-chain tools, and support designed to scale your business efficiently.
             </FeatureCardDescription>
             <FeatureCardBenefits>
               <FeatureCardBenefitItem>

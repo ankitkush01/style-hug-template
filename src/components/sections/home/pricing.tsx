@@ -7,16 +7,16 @@ const pricingPlans = [
   {
     id: 1,
     title: "Starter",
-    description: "Full-featured banking essentials with no strings attached.",
+    description: "Everything you need to trade crypto and collect NFTs.",
     price: "$2",
     pricePeriod: "/month",
     features: [
-      "1.5% Cash Back Rewards",
-      "Hundreds of millions protected by FDIC insurance",
-      "Instant ACH transfers for just $1",
-      "Domestic wire transfers available for $6",
-      "Unlimited virtual card options",
-      "International wire transfers at $25",
+      "0.5% trading fee on all swaps",
+      "Self-custody wallet with hardware key support",
+      "Live prices across 20+ chains",
+      "NFT portfolio and floor price tracking",
+      "Unlimited watchlists and price alerts",
+      "Standard staking pools",
     ],
     buttonText: "Get Started",
     buttonLink: "/pricing/starter",
@@ -25,16 +25,16 @@ const pricingPlans = [
   {
     id: 2,
     title: "Professional",
-    description: "Scale your business with advanced industry-specific capabilities.",
+    description: "For creators and active traders launching their own collections.",
     price: "$5",
     pricePeriod: "/month",
     features: [
-      "4% Cash Back Rewards",
-      "Hundreds of millions protected by FDIC insurance",
-      "Same-day ACH transfers for only $0.5",
-      "Domestic wire transfers for a fee of $3",
-      "Unlimited access to virtual cards",
-      "International wire transfers for $20",
+      "0.1% trading fee on all swaps",
+      "No-code NFT collection minting",
+      "Gas-optimized batch transactions",
+      "Creator royalties and allowlist tools",
+      "Advanced on-chain analytics",
+      "Priority access to new drops",
     ],
     buttonText: "Get Started Today!",
     buttonLink: "/pricing/professional",
@@ -60,7 +60,7 @@ const Pricing = () => {
             <p
               className="text-muted-foreground"
             >
-              Access robust banking services for free, with advanced financial workflows starting at just $35/month.
+              Start trading with zero platform fees, and unlock creator tools for just $5/month.
             </p>
           </AnimateOnView>
         </StaggerContainer>

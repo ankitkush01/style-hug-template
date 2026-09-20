@@ -16,7 +16,7 @@ const AboutHero = () => {
                     {/* Headline */}
                     <AnimateOnView blur once>
                         <h1 className="h1 mb-4">
-                            Smart Solutions Built for the Future of Finance
+                            Smart Solutions Built for the Future of Crypto
                         </h1>
                     </AnimateOnView>
 

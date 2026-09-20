@@ -1,7 +1,7 @@
 import Layout from '@/components/layout'
 import FeatureGrid from '@/components/sections/feature/feature-grid'
 import Features from '@/components/sections/feature/features'
-import FutureReadyFinance from '@/components/sections/feature/future-ready'
+import FutureReadyCrypto from '@/components/sections/feature/future-ready'
 import FeatureGrowth from '@/components/sections/feature/growth'
 import FeatureHero from '@/components/sections/feature/hero'
 import FeatureIntegration from '@/components/sections/feature/integration'
@@ -13,7 +13,7 @@ const Feature = () => {
             <FeatureGrid />
             <Features />
             <FeatureIntegration />
-            <FutureReadyFinance />
+            <FutureReadyCrypto />
             <FeatureGrowth />
         </Layout>
     )

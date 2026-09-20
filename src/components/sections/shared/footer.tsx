@@ -51,8 +51,8 @@ const Footer = () => {
 
             <Link to="/" className="inline-block">
               <img
-                src="/images/common/logo.svg"
-                alt="PAYMARK"
+                src="/images/common/logo-novamint.png"
+                alt="NOVAMINT"
                 className="h-10 w-auto opacity-70 hover:opacity-100 transition-opacity"
               />
             </Link>

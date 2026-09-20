@@ -34,7 +34,7 @@ const Confidence = () => {
             <h2
               className="h2 md:mb-5 mb-3"
             >
-              Who Says a Banking Platform Can't Blow Mind?
+              Who Says a Crypto Wallet Can't Blow Minds?
             </h2>
           </AnimateOnView>
           <AnimateOnView
@@ -44,7 +44,7 @@ const Confidence = () => {
             <p
               className='text-muted-foreground md:mb-10 mb-5'
             >
-              We care a lot. And you’ll feel it in everything we do. With Rho, feel seen & taken care of across every step of the startup journey (not just your finances).            </p>
+              We care a lot, and you'll feel it in everything we do. With NovaMint you're guided through every step of your Web3 journey, from your first swap to your first drop.            </p>
           </AnimateOnView>
           <AnimateOnView>
             <Button asChild>

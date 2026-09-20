@@ -21,7 +21,7 @@ const CTA = () => {
                         <h2
                             className="h2 md:mb-5 mb-3"
                         >
-                            Apply in under 10 minutes today!
+                            Connect your wallet in under 2 minutes!
                         </h2>
                     </AnimateOnView>
                     <AnimateOnView
@@ -31,12 +31,12 @@ const CTA = () => {
                         <p
                             className='text-muted-foreground md:mb-10 mb-5'
                         >
-                            Join over 1,000 businesses already benefiting from Paymark.           </p>
+                            Join over 100,000 traders and creators already building on NovaMint.           </p>
                     </AnimateOnView>
                     <AnimateOnView>
                         <Button asChild>
                             <Link to="/contact">
-                                Get Started Now
+                                Connect Wallet
                             </Link>
                         </Button>
                     </AnimateOnView>

@@ -38,7 +38,7 @@ const LoginPage = () => {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <Helmet>
-        <title>Login | Paymark</title>
+        <title>Login | NovaMint</title>
       </Helmet>
       <AuthNavbar />
 
@@ -75,7 +75,7 @@ const LoginPage = () => {
 
             <div className="flex justify-start">
               <span className="text-muted-foreground text-sm">
-                Trouble signing in? Contact <a href="mailto:support@paymark.dev" className="text-white hover:text-primary transition-colors">support@paymark.dev</a>
+                Trouble signing in? Contact <a href="mailto:support@novamint.dev" className="text-white hover:text-primary transition-colors">support@novamint.dev</a>
               </span>
             </div>
 

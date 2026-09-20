@@ -34,7 +34,7 @@ const WorldwideStats = () => {
 
                     <AnimateOnView blur delay={0.1}>
                         <p className="text-muted-foreground">
-                            Our growth reflects one mission — helping people and companies achieve financial confidence with clarity and ease.
+                            Our growth reflects one mission — helping people and creators navigate crypto and NFTs with clarity and ease.
                         </p>
                     </AnimateOnView>
                 </div>
@@ -48,7 +48,7 @@ const WorldwideStats = () => {
                     >
                         <div className="relative z-10 pt-[29px] px-6">
                             <h3 className="text-3xl font-semibold text-white leading-tight max-w-[280px]">
-                                Paymark Supports participants and sites
+                                NovaMint Supports participants and sites
                             </h3>
                         </div>
 

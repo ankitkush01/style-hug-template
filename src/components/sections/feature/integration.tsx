@@ -15,12 +15,12 @@ const FeatureIntegration = () => {
                 <StaggerContainer className="text-center md:max-w-none max-w-xs mx-auto">
                     <AnimateOnView blur>
                         <h2 className="h2 md:mb-5 mb-3">
-                            Connected Finance, Effortless Control
+                            Connected Crypto, Effortless Control
                         </h2>
                     </AnimateOnView>
                     <AnimateOnView blur delay={0.2}>
                         <p className="text-muted-foreground">
-                            Link Paymark to your favorite business tools and take charge of your finances
+                            Link NovaMint to your favorite business tools and take charge of your crypto portfolio
                         </p>
                     </AnimateOnView>
                 </StaggerContainer>

@@ -19,8 +19,8 @@ const testimonials = [
     },
     {
         id: 2,
-        title: "Game changer for finance",
-        quote: "The real-time insights changed how we look at our burn rate and runway. It's not just a tool; it's like having a CFO in your pocket. The integration with our existing banks was seamless, and the automated reporting saves us hours every week.",
+        title: "Game changer for crypto",
+        quote: "The real-time insights changed how we look at our burn rate and runway. It's not just a tool; it's like having a CFO in your pocket. The integration with our existing chains was seamless, and the automated reporting saves us hours every week.",
         author: "Jane Cooper",
         role: "Head of Operations",
         avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100",
@@ -30,7 +30,7 @@ const testimonials = [
     {
         id: 3,
         title: "Simple and Powerful",
-        quote: "I love how clean the interface is. Most financial apps are cluttered and confusing, but Paymark keeps things focused. The early access cards were a huge help for my startup in the early days. Highly recommend to any growing team.",
+        quote: "I love how clean the interface is. Most crypto apps are cluttered and confusing, but NovaMint keeps things focused. The early access cards were a huge help for my startup in the early days. Highly recommend to any growing team.",
         author: "Guy Hawkins",
         role: "Founder at TechFlow",
         avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=100",
@@ -40,7 +40,7 @@ const testimonials = [
     {
         id: 4,
         title: "The best ROI for our team",
-        quote: "The automated workflows for payments and invoicing have reduced our manual workload by 150%. It's reliable, secure, and the support team is incredible. We've seen a massive improvement in our cash flow management since switching.",
+        quote: "The automated workflows for transfers and minting have reduced our manual workload by 150%. It's reliable, secure, and the support team is incredible. We've seen a massive improvement in our cash flow management since switching.",
         author: "Eleanor Pena",
         role: "Founder at Streamline",
         avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=100",
@@ -68,7 +68,7 @@ const AboutTestimonials = () => {
 
                     <AnimateOnView blur once delay={0.1}>
                         <p className="text-muted-foreground">
-                            Our growth reflects one mission — helping people and companies achieve financial confidence with clarity and ease.
+                            Our growth reflects one mission — helping people and creators navigate crypto and NFTs with clarity and ease.
                         </p>
                     </AnimateOnView>
                 </StaggerContainer>

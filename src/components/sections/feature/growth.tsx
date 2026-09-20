@@ -12,12 +12,12 @@ const FeatureGrowth = () => {
                 <StaggerContainer className="text-center md:max-w-none max-w-xs mx-auto">
                     <AnimateOnView blur>
                         <h2 className="h2 md:mb-5 mb-3">
-                            Smarter Banking, Built for Growth
+                            Smarter Blockchain, Built for Growth
                         </h2>
                     </AnimateOnView>
                     <AnimateOnView blur delay={0.2}>
                         <p className="text-muted-foreground">
-                            Discover the powerful tools that make Paymark the future of finance.
+                            Discover the powerful tools that make NovaMint the future of crypto.
                         </p>
                     </AnimateOnView>
                 </StaggerContainer>

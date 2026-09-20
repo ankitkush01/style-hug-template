@@ -26,13 +26,13 @@ const FeatureHero = () => {
                 <StaggerContainer className="flex flex-col items-center text-center max-w-[710px] mx-auto">
                     <AnimateOnView once blur>
                         <h1 className="h1 mb-5">
-                            Explore the reality of finance management
+                            Explore the reality of crypto management
                         </h1>
                     </AnimateOnView>
 
                     <AnimateOnView once blur delay={0.1}>
                         <p className="text-lg text-muted-foreground">
-                            Say goodbye to complexity and hello to simplicity as Wepay transforms the way you manage your finance.
+                            Say goodbye to complexity and hello to simplicity as Wepay transforms the way you manage your crypto.
                         </p>
                     </AnimateOnView>
                 </StaggerContainer>

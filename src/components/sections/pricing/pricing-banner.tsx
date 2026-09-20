@@ -7,16 +7,16 @@ const pricingPlans = [
     {
         id: 1,
         title: "Starter",
-        description: "Full-featured banking essentials with no strings attached.",
+        description: "Everything you need to trade crypto and collect NFTs.",
         price: "$2",
         pricePeriod: "/month",
         features: [
-            "1.5% Cash Back Rewards",
-            "Hundreds of millions protected by FDIC insurance",
-            "Instant ACH transfers for just $1",
-            "Domestic wire transfers available for $6",
-            "Unlimited virtual card options",
-            "International wire transfers at $25",
+            "0.5% trading fee on all swaps",
+            "Self-custody wallet with hardware key support",
+            "Instant swaps with gas optimization",
+            "Token swaps at a 0.5% fee",
+            "Unlimited watchlists and price alerts",
+            "Cross-chain bridging at 0.8%",
         ],
         buttonText: "Get Started",
         buttonLink: "/pricing/starter",
@@ -25,16 +25,16 @@ const pricingPlans = [
     {
         id: 2,
         title: "Professional",
-        description: "Scale your business with advanced industry-specific capabilities.",
+        description: "For creators and active traders launching their own collections.",
         price: "$5",
         pricePeriod: "/month",
         features: [
-            "4% Cash Back Rewards",
-            "Hundreds of millions protected by FDIC insurance",
-            "Same-day ACH transfers for only $0.5",
-            "Domestic wire transfers for a fee of $3",
-            "Unlimited access to virtual cards",
-            "International wire transfers for $20",
+            "0.1% trading fee on all swaps",
+            "Self-custody wallet with hardware key support",
+            "Priority swaps with MEV protection",
+            "Token swaps at a 0.1% fee",
+            "Unlimited collections and allowlists",
+            "Cross-chain bridging at 0.3%",
         ],
         buttonText: "Get Started Today!",
         buttonLink: "/pricing/professional",
@@ -60,7 +60,7 @@ const PricingBanner = () => {
                         <p
                             className=""
                         >
-                            Access robust banking services for free, with advanced financial workflows starting at just $35/month.
+                            Start trading with zero platform fees, and unlock creator tools for just $5/month.
                         </p>
                     </AnimateOnView>
                 </StaggerContainer>

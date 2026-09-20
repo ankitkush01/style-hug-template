@@ -87,7 +87,7 @@ const ContactForm = () => {
           </h1>
           <p className="text-lg text-muted-foreground">
             Discover tips, tools, and trends to help you grow and manage your
-            finances more efficiently.
+            crypto portfolio more efficiently.
           </p>
         </div>
 
