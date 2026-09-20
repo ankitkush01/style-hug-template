@@ -14,7 +14,7 @@ const Hero = () => {
               <h1
                 className="h1 text-foreground mb-4"
               >
-                Smart Solutions Built for the Future of Finance
+                Trade Crypto and Mint NFTs in One Place
               </h1>
             </AnimateOnView>
 
@@ -25,7 +25,7 @@ const Hero = () => {
               <p
                 className="text-body-md max-w-2xl mx-auto mb-5"
               >
-                Track the growth and engagement of your newsletter detailed analytics your reach.
+                Buy, swap and stake tokens, launch NFT collections, and track every wallet from a single dashboard.
               </p>
             </AnimateOnView>
 
@@ -45,7 +45,7 @@ const Hero = () => {
               <AnimateOnView delay={0.1} className="absolute right-0 top-1/2 -translate-y-1/2 aspect-[429/259] w-[51%] z-0">
                 <img
                   src="/images/home/card-2.png"
-                  alt="Credit card placeholder"
+                  alt="NFT collection artwork"
                   className="w-full h-full object-cover"
                 />
               </AnimateOnView>
@@ -53,7 +53,7 @@ const Hero = () => {
               <AnimateOnView delay={0.2} className="aspect-[525/317] w-[63%] z-10 bg-[url('/images/home/card-bg.png')] bg-cover bg-center rounded-[19px]">
                 <img
                   src="/images/home/card-1.png"
-                  alt="Credit card placeholder"
+                  alt="NFT collection artwork"
                   className="w-full h-full object-cover"
                 />
               </AnimateOnView>
@@ -61,7 +61,7 @@ const Hero = () => {
               <AnimateOnView delay={0.3} className="absolute left-0 top-1/2 -translate-y-1/2 aspect-[429/259] w-[51%] z-0">
                 <img
                   src="/images/home/card-2.png"
-                  alt="Credit card placeholder"
+                  alt="NFT collection artwork"
                   className="w-full h-full object-cover"
                 />
               </AnimateOnView>

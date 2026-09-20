@@ -9,20 +9,20 @@ import Container from '../../container';
 const streamlineFeatures = [
   {
     id: 1,
-    title: "Send & Receive Payments Seamlessly",
-    description: "Set auto-transfer rules and send free USD wires.",
+    title: "Send & Receive Crypto Seamlessly",
+    description: "Transfer tokens across chains with low-fee bridging built in.",
     lottieData: lottie1,
   },
   {
     id: 2,
-    title: "Organize Your Payment",
-    description: "Immediately group your transactions to make it easy",
+    title: "Organize Your NFT Collection",
+    description: "Group drops, traits and floor prices in one clean view",
     lottieData: lottie2, // Will be added later
   },
   {
     id: 3,
-    title: "Unlock Cards Earlier with Low Deposit Minimums",
-    description: "Unlock credit cards earlier with industry-low deposit minimums",
+    title: "Mint Faster with Gas-Optimized Contracts",
+    description: "Launch collections with audited contracts and industry-low mint fees",
     lottieData: lottie3, // Will be added later
   },
 ];
@@ -36,14 +36,14 @@ const Content = () => {
             <h2
               className="h2 md:mb-5 mb-3"
             >
-              Streamline Financial Zero Hassle.
+              Streamline Web3. Zero Hassle.
             </h2>
           </AnimateOnView>
           <AnimateOnView blur delay={0.2}>
             <p
               className="text-muted-foreground"
             >
-              We respond quickly, tackle what matters, and are dedicated to your success.
+              Swap, mint and stake without juggling five different tools or seed phrases.
             </p>
           </AnimateOnView>
         </StaggerContainer>
