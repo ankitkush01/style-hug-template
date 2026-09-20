@@ -34,7 +34,7 @@ const BlogBanner = () => {
           <AnimateOnView blur delay={0.2}>
             <p className="text-lg text-muted-foreground">
               Explore the latest trends, tips, and insights in fintech and
-              payments. Stay ahead with expert articles from our team.
+              transactions. Stay ahead with expert articles from our team.
             </p>
           </AnimateOnView>
 

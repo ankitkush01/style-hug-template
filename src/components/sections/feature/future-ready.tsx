@@ -4,7 +4,7 @@ import { Bookmark, Building2, LayoutGrid, Zap } from 'lucide-react'
 import Container from '../../container'
 import FeatureVideo from './feature-video'
 
-const FutureReadyFinance = () => {
+const FutureReadyCrypto = () => {
     const features = [
         {
             icon: <Building2 className="w-5 h-5 text-orange-400" />,
@@ -18,13 +18,13 @@ const FutureReadyFinance = () => {
         },
         {
             icon: <Bookmark className="w-5 h-5 text-orange-400" />,
-            title: "Understand Finances Every Week",
-            description: "Track spending trends, monitor growth patterns, and make smarter financial decisions using real-time weekly."
+            title: "Understand Cryptos Every Week",
+            description: "Track spending trends, monitor growth patterns, and make smarter on-chain decisions using real-time weekly."
         },
         {
             icon: <LayoutGrid className="w-5 h-5 text-orange-400" />,
             title: "Connect Everything You Need",
-            description: "Integrate NovaMint effortlessly with essential tools and apps to streamline workflows and keep finances."
+            description: "Integrate NovaMint effortlessly with essential tools and apps to streamline workflows and keep crypto portfolio."
         }
     ]
 
@@ -34,12 +34,12 @@ const FutureReadyFinance = () => {
                 <StaggerContainer className="text-center md:max-w-2xl max-w-xs mx-auto">
                     <AnimateOnView blur>
                         <h2 className="h2 md:mb-5 mb-3">
-                            Future-Ready Finance
+                            Future-Ready Crypto
                         </h2>
                     </AnimateOnView>
                     <AnimateOnView blur delay={0.2}>
                         <p className="text-muted-foreground">
-                            With NovaMint, you're not just banking—you're building the future of your finances.
+                            With NovaMint, you're not just blockchain—you're building the future of your crypto portfolio.
                         </p>
                     </AnimateOnView>
                 </StaggerContainer>
@@ -75,4 +75,4 @@ const FutureReadyFinance = () => {
     )
 }
 
-export default FutureReadyFinance
+export default FutureReadyCrypto

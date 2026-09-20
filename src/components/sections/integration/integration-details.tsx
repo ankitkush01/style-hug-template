@@ -13,29 +13,29 @@ const integrationData: Record<string, {
     "ledgerlink": {
         name: "LedgerLink",
         description: "A comprehensive integration platform that securely connects multiple accounting systems.",
-        overview: "Our Smart Financial Integrations Suite is designed to simplify the way businesses manage their financial operations by connecting multiple systems into a single seamless platform. It ensures real-time synchronization of data across accounting, payment, and investment tools, reducing manual effort, minimizing errors, and providing a holistic view of your financial ecosystem.",
+        overview: "Our Web3 Integrations Suite is designed to simplify the way businesses manage their on-chain operations by connecting multiple systems into a single seamless platform. It ensures real-time synchronization of data across accounting, transaction, and investment tools, reducing manual effort, minimizing errors, and providing a holistic view of your on-chain ecosystem.",
         capabilities: [
-            "Real-time Data Synchronization: Keep all your financial systems up-to-date instantly.",
+            "Real-time Data Synchronization: Keep all your on-chain systems up-to-date instantly.",
             "Automated Reconciliation: Reduce manual reconciliation tasks with smart automation.",
-            "Multi-Platform Connectivity: Integrate with banking, accounting, ERP, and investment platforms.",
+            "Multi-Platform Connectivity: Integrate with wallets, exchanges, marketplaces, and analytics platforms.",
             "Advanced Reporting & Analytics: Gain insights through dashboards, trends, and custom reports.",
             "Secure API Access: Connect external tools safely without compromising sensitive data."
         ],
-        setup: "Setting up the integration is simple and requires no extensive technical expertise. Users start by connecting their financial accounts through secure API credentials, followed by configuring synchronization settings based on the systems they want to link.",
+        setup: "Setting up the integration is simple and requires no extensive technical expertise. Users start by connecting their on-chain accounts through secure API credentials, followed by configuring synchronization settings based on the systems they want to link.",
         security: "Security and compliance are core priorities of our integration suite. All data transfers are encrypted using industry-standard protocols, and access controls are in place to ensure only authorized personnel can interact with sensitive information."
     },
     "finsync": {
         name: "FinSync",
-        description: "An advanced financial synchronization solution designed to pull, validate, and consolidate data from diverse banking.",
-        overview: "FinSync unifies banking, card, and treasury data feeds into a single normalized stream. It validates every transaction against your source of truth, resolves duplicates, and pushes clean records to your accounting and reporting stack in real time.",
+        description: "An advanced on-chain synchronization solution designed to pull, validate, and consolidate data from diverse blockchain.",
+        overview: "FinSync unifies blockchain, card, and treasury data feeds into a single normalized stream. It validates every transaction against your source of truth, resolves duplicates, and pushes clean records to your accounting and reporting stack in real time.",
         capabilities: [
-            "Multi-Bank Aggregation: Pull balances and transactions from every connected bank in one feed.",
+            "Multi-Chain Aggregation: Pull balances and transactions from every connected wallet in one feed.",
             "Automatic Validation: Detect duplicates, missing metadata, and mismatched currencies before they reach your books.",
             "Streaming Sync: Push updates to downstream systems with sub-minute latency.",
-            "Custom Field Mapping: Map bank statement fields to your chart of accounts without engineering effort.",
+            "Custom Field Mapping: Map on-chain transaction fields to your chart of accounts without engineering effort.",
             "Immutable Audit Log: Every sync produces a signed record for compliance and reconciliation."
         ],
-        setup: "Connect each banking source with a read-only credential or an Open Banking token. FinSync verifies access, backfills up to 24 months of history, then enables live streaming with your chosen destination systems.",
+        setup: "Connect each blockchain source with a read-only credential or an wallet signature. FinSync verifies access, backfills up to 24 months of history, then enables live streaming with your chosen destination systems.",
         security: "FinSync is read-only by default. All data is encrypted in transit with TLS 1.3 and at rest with AES-256. Credentials are stored in a hardware-backed vault and never exposed to end users."
     },
     "capitalconnect": {
@@ -69,9 +69,9 @@ const integrationData: Record<string, {
     "equityflow": {
         name: "EquityFlow",
         description: "An integration service that monitors equity transactions, manages shareholder records, and delivers real-time insights.",
-        overview: "EquityFlow keeps your cap table, shareholder register, and equity plan administration in sync. Grants, vesting events, and secondary transactions flow into a single ledger that finance, legal, and HR can trust.",
+        overview: "EquityFlow keeps your cap table, shareholder register, and equity plan administration in sync. Grants, vesting events, and secondary transactions flow into a single ledger that crypto, legal, and HR can trust.",
         capabilities: [
-            "Cap Table Sync: Mirror your equity ledger across finance, legal, and HR tooling.",
+            "Cap Table Sync: Mirror your equity ledger across crypto, legal, and HR tooling.",
             "Vesting Automation: Trigger events, tax withholding, and notifications on schedule.",
             "409A & Waterfall Support: Model valuations and liquidity scenarios on live data.",
             "Shareholder Portal Feeds: Power self-service portals with real-time balances.",
@@ -82,8 +82,8 @@ const integrationData: Record<string, {
     },
     "paystream": {
         name: "PayStream",
-        description: "A versatile payment-processing connector that unites multiple gateways, automates cash-flow reconciliation.",
-        overview: "PayStream sits in front of every payment processor you use and presents a single unified API. Payouts, refunds, disputes, and settlement files are normalized so your finance team reconciles once, not once per processor.",
+        description: "A versatile transaction-routing connector that unites multiple gateways, automates cash-flow reconciliation.",
+        overview: "PayStream sits in front of every exchange you use and presents a single unified API. Payouts, refunds, disputes, and settlement files are normalized so your ops team reconciles once, not once per processor.",
         capabilities: [
             "Multi-Gateway Routing: Route each transaction to the optimal processor based on cost or success rate.",
             "Automatic Reconciliation: Match settlements to source transactions and post journal entries automatically.",
@@ -96,24 +96,24 @@ const integrationData: Record<string, {
     },
     "dividend": {
         name: "Dividend",
-        description: "A sophisticated treasury-management integration that consolidates banking data, cash positions, and liquidity forecasts.",
-        overview: "Dividend gives treasurers a live view of cash across every bank, currency, and entity. Balances, forecasts, and intercompany positions update continuously so you can move money confidently and hit your yield targets.",
+        description: "A sophisticated treasury-management integration that consolidates on-chain data, cash positions, and liquidity forecasts.",
+        overview: "Dividend gives treasurers a live view of cash across every chain, currency, and entity. Balances, forecasts, and intercompany positions update continuously so you can move money confidently and hit your yield targets.",
         capabilities: [
             "Global Cash Visibility: See every account in every currency in one dashboard.",
             "Liquidity Forecasting: Project cash positions using AR, AP, and historical patterns.",
             "Intercompany Netting: Automate settlement between entities to reduce FX and fees.",
             "Sweep & Invest: Trigger sweeps to money-market or investment accounts on rules you define.",
-            "Bank Fee Analysis: Flag anomalous charges and reclaim over-billed fees."
+            "Gas Fee Analysis: Flag anomalous charges and reclaim over-billed fees."
         ],
-        setup: "Connect each bank via SWIFT, EBICS, or an Open Banking token. Dividend backfills historical statements, builds your entity and account hierarchy, then activates real-time balance and transaction streams.",
-        security: "Dividend enforces read-only access wherever possible, requires dual approval for any payment-initiation flow, and encrypts every credential with per-tenant keys managed in a FIPS 140-2 validated HSM."
+        setup: "Connect each chain via SWIFT, EBICS, or an wallet signature. Dividend backfills historical statements, builds your entity and account hierarchy, then activates real-time balance and transaction streams.",
+        security: "Dividend enforces read-only access wherever possible, requires dual approval for any transaction-initiation flow, and encrypts every credential with per-tenant keys managed in a FIPS 140-2 validated HSM."
     },
     "budgetbe": {
         name: "BudgetBe",
         description: "A dynamic budgeting and forecasting connector that pulls data from ERP, payroll, and expense platforms.",
         overview: "BudgetBe unifies actuals from your ERP, payroll, and expense systems with your planning models. Variance analysis, driver-based forecasts, and department budgets stay accurate without a monthly consolidation sprint.",
         capabilities: [
-            "ERP & Payroll Sync: Ingest actuals nightly from every finance system.",
+            "ERP & Payroll Sync: Ingest actuals nightly from every crypto system.",
             "Driver-Based Planning: Model revenue and headcount plans against live operating metrics.",
             "Variance Alerts: Notify budget owners when they drift beyond the thresholds you set.",
             "Scenario Modeling: Compare base, upside, and downside plans side-by-side.",
@@ -124,11 +124,11 @@ const integrationData: Record<string, {
     },
     "risksphere": {
         name: "RiskSphere",
-        description: "A powerful risk-analysis integration that aggregates market data, credit reports, and internal financial metrics.",
+        description: "A powerful risk-analysis integration that aggregates market data, credit reports, and internal on-chain metrics.",
         overview: "RiskSphere combines market data, credit intelligence, and your internal exposures into a single risk model. Limits, concentrations, and stress scenarios update continuously so risk teams act before positions become losses.",
         capabilities: [
             "Real-Time Exposure: Aggregate positions across desks, entities, and asset classes.",
-            "Credit Intelligence: Blend third-party credit data with your internal payment history.",
+            "Credit Intelligence: Blend third-party credit data with your internal transaction history.",
             "Limit Monitoring: Enforce per-counterparty and per-portfolio limits with automated alerts.",
             "Stress Testing: Run historical and hypothetical scenarios on live exposures.",
             "Regulatory Metrics: Compute common risk metrics on demand for internal and external reporting."
@@ -175,7 +175,7 @@ const IntegrationDetails = () => {
                         <section>
                             <h2 className="h3 md:mb-5 mb-3">Key Capabilities</h2>
                             <p className="text-muted-foreground mb-8">
-                                These capabilities allow organizations to operate efficiently, gain clear visibility into their finances, and ensure that all critical financial processes run smoothly without constant manual intervention.
+                                These capabilities allow organizations to operate efficiently, gain clear visibility into their crypto portfolio, and ensure that all critical on-chain processes run smoothly without constant manual intervention.
                             </p>
                             <ul className="space-y-4">
                                 {data.capabilities.map((cap, idx) => (

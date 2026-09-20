@@ -52,7 +52,7 @@ const SignupPage = () => {
         <Container className="max-w-[480px]">
           <div className="text-center mb-10">
             <h1 className="h2 mb-4">Create Account</h1>
-            <p className="text-muted-foreground">Join NovaMint and start managing your payments today.</p>
+            <p className="text-muted-foreground">Join NovaMint and start managing your transactions today.</p>
           </div>
 
           <form className="space-y-6" onSubmit={handleSubmit}>

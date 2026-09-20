@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const ConfidenceSection = () => {
     const stats = [
         {
-            label: "Automated financial growth",
+            label: "Automated on-chain growth",
             value: "150%",
             description: "of manual work eliminated",
             icon: "📈",
@@ -17,13 +17,13 @@ const ConfidenceSection = () => {
         {
             label: "Transaction security",
             value: "99.9%",
-            description: "fraud prevention accuracy across all payments",
+            description: "fraud prevention accuracy across all transactions",
             icon: "🔒",
         },
         {
             label: "Trusted by businesses",
             value: "10K+",
-            description: "companies manage their finances with us",
+            description: "companies manage their crypto portfolio with us",
             icon: "🏢",
         },
     ];
@@ -40,7 +40,7 @@ const ConfidenceSection = () => {
 
                     <AnimateOnView blur once delay={0.1}>
                         <p className="text-muted-foreground md:mb-8 mb-5">
-                            The revenue platform modern finance teams were waiting for
+                            The revenue platform modern ops teams were waiting for
                         </p>
                     </AnimateOnView>
 

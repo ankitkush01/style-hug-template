@@ -37,7 +37,7 @@ const SEO = ({
             <meta property="og:url" content={fullUrl} />
             <meta property="og:image" content={fullImageUrl} />
             <meta property="og:image:alt" content={title} />
-            <meta property="og:site_name" content="Revio - Offline & Online Payment" />
+            <meta property="og:site_name" content="Revio - Offline & Online Transaction" />
             <meta property="og:locale" content="en_US" />
 
             {/* Twitter Card Meta Tags */}

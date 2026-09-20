@@ -34,7 +34,7 @@ const WorldwideStats = () => {
 
                     <AnimateOnView blur delay={0.1}>
                         <p className="text-muted-foreground">
-                            Our growth reflects one mission — helping people and companies achieve financial confidence with clarity and ease.
+                            Our growth reflects one mission — helping people and creators navigate crypto and NFTs with clarity and ease.
                         </p>
                     </AnimateOnView>
                 </div>
