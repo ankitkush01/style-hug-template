@@ -1,7 +1,7 @@
 import feature3 from "@/assets/lottie/19k-earning.json"
 import feature1 from "@/assets/lottie/growth-100.json"
 import feature4 from "@/assets/lottie/integrations.json"
-import feature2 from "@/assets/lottie/unlimited-staking rewards.json"
+import feature2 from "@/assets/lottie/unlimited-cashback.json"
 
 import { AnimateOnView } from '@/components/ui/motion/animate-on-view'
 import { StaggerContainer } from '@/components/ui/motion/stagger'
